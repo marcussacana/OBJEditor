@@ -7,7 +7,7 @@ namespace OBJEditor {
     public class OBJHelper {
         Dictionary<int, string> Actors;
         OBJ Editor;
-        public OBJHelper(byte[] Script) => Editor = new OBJ(Script);
+        public OBJHelper(byte[] Script) { Editor = new OBJ(Script); }
         internal const char Open = '「', Close = '」', BreakLine = '＿';
 
         //Ryuuji「(Aaaaaaaaagh!!!!)」
